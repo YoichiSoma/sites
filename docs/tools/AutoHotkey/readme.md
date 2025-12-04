@@ -54,3 +54,15 @@ HHKBの場合は左小指辺りにctrlキーが配置されるのでvim操作が
   - Alt(Right)
      - 送信 :キーショットカットの送信
      - IME Non-Convert
+
+---
+# Winキーに変換、無変換を割り当て (2025/12/04 追記)
+- HHKBキーマップ変更ツールでWinキー（commadキー）に変換、無変換を割り当てるとMACと併用した場合支障がでる
+- そのためAutoHotkey側で割当を変更する
+- 設定はHHKB.ahkに反映済み
+
+# Google日本語入力の利用 (2025/12/04 追記)
+- IMEの変換が賢くないのでGoogle日本語入力が利用できる場合は利用する
+   - 割当は以下の通りにしておくといいかもです
+   - <img width="671" height="613" alt="Google日本語入力keymap_img" src="https://github.com/user-attachments/assets/798d473f-e517-4edd-a6d0-ee37cff1b9a0" />
+   - 念の為キーマップファイルのエクスポートデータもリポジトリに上げておく

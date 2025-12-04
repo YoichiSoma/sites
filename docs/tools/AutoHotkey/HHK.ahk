@@ -144,6 +144,19 @@ VKF4::
 	send '{"}'
 }
 
+;HHK US KeyMap
+;HHK Winkey Bind
+*LWin::
+{
+	Send "{vk1Dsc07B}"
+}
+
+*RWin::
+{
+	
+	Send "{vk1Csc079}"
+}
+
 
 
 
